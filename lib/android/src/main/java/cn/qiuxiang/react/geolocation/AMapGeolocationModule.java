@@ -1,6 +1,6 @@
 package cn.qiuxiang.react.geolocation;
 
-import android.support.annotation.NonNull;
+// import android.support.annotation.NonNull;
 import com.amap.api.location.AMapLocation;
 import com.amap.api.location.AMapLocationClient;
 import com.amap.api.location.AMapLocationClientOption;
@@ -26,7 +26,7 @@ public class AMapGeolocationModule extends ReactContextBaseJavaModule implements
         this.reactContext = reactContext;
     }
 
-    @NonNull
+    // @NonNull
     @Override
     public String getName() {
         return "AMapGeolocation";
